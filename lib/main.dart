@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_pt_pranala_ragam_karya/core/constants/color.dart';
 import 'package:test_pt_pranala_ragam_karya/features/welcome/presentation/welcome_page.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         useMaterial3: false,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Color(greenColor)),
       ),
       home: WelcomePage(),
     );

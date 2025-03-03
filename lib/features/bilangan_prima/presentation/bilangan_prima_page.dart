@@ -31,7 +31,7 @@ class _BilanganPrimaPageState extends State<BilanganPrimaPage> {
                   ),
                 ],
               ),
-              SizedBox(height: 40),
+              SizedBox(height: 50),
               Text(
                 "Bilangan Prima",
                 style: TextStyle(fontWeight: FontWeight.w700, fontSize: 30),
@@ -39,22 +39,24 @@ class _BilanganPrimaPageState extends State<BilanganPrimaPage> {
               SizedBox(height: 15),
               Text(
                 "Masukkan angka untuk menghasilkan bilangan prima",
-                style: TextStyle(fontWeight: FontWeight.w500, fontSize: 20, height: 1.5),
+                style: TextStyle(fontWeight: FontWeight.w400, fontSize: 18, height: 1.5),
               ),
-              SizedBox(height: 25),
+              SizedBox(height: 30),
               Text(
                 "Input Angka",
                 style: TextStyle(
                   fontWeight: FontWeight.w400,
-                  fontSize: 20,
+                  fontSize: 18,
                   color: Colors.grey,
                 ),
               ),
+              SizedBox(height: 10,),
               TextField(
                 decoration: InputDecoration(
-                  contentPadding: EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+                  contentPadding: EdgeInsets.all(20),
+                  enabledBorder: UnderlineInputBorder(borderSide: BorderSide(color: Color(0xFFD0C9C5))),
                   hintText: "Email Address",
-                  hintStyle: TextStyle(color: Color(0xFFD0C9C5), fontSize: 20))),
+                  hintStyle: TextStyle(color: Color(0xFFD0C9C5), fontSize: 18))),
               SizedBox(height: 25),
               CustomButton(
                 isWithPadding: false,
